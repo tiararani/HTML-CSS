@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+.content {
+  margin-top: 2%;
+}
+
+.wrapper {
+  width: 80%;
+
+  margin: auto;
+}
+
+header img {
+  width: 150px;
+  float: left;
+}
+
+header h1 {
+  margin-left: 7%;
+}
+
+nav {
+  clear: both;
+}
+
+nav ul {
+  margin-top: 5%;
+}
+
+section {
+  margin-top: 2%;
+}
+
+footer {
+  margin: 5%;
+  text-align: center;
+}
+section p {
+  margin-top: 2%;
+}
+
+.huruf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.warna {
+  background: rgb(166, 255, 0);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: darkorange;
+  list-style: none;
+  margin: 0px;
+  padding-left: 0px;
+}
+
+ul li {
+  color: #fff;
+  background: darkorange;
+  border: 1px;
+  display: inline-block;
+  border: 1px blue;
+  padding: 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li:hover {
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  position: absolute;
+  margin-top: 0.5rem;
+  left: 0;
+  display: 0;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600vw) {
+  body {
+    background: rgb(247, 255, 138);
+    font-family: "Courier New", Courier, monospace;
+  }
+}
